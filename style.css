@@ -427,9 +427,23 @@
         height: 12px;
         width: 12px;
         border-radius: 100%;
-        
+        margin-left: 20px;
         margin-top: 12px;
         
+      }
+
+
+      .next {
+        position:absolute;  
+        background-color: white;
+        color: #b88e2f;
+        border-radius: 100%;
+        right: 1px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 30px;
       }
       .b-info {
         position: relative;
@@ -438,23 +452,25 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        height: 70px;
+        height: 130px;
+        width: 238;
         left: 30px;
         bottom: 40px;
         background-color: rgba(255, 255, 255, 0.509);
+        justify-content: center;
         text-align: center;
         padding: 10px;
         
       }
 
       .messi span {
+        display: flex;
+        flex-direction: column;
         width: 200px;
-        weight: 500px;
-      }
-      .messi #bed{
-        width: 10px;
-      }
+        weight: 500px;  
+    }
 
+      
      /* beautiful room bitiş  */
       .fnr {
 
